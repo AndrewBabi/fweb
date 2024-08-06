@@ -1,0 +1,162 @@
+html,
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(199, 42, 31);
+    background-image: url(../img/mario\ \(2\).png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+header {
+    height: 20%;
+}
+
+
+.menu-opçoes ul {
+    font-size: 20px;
+}
+
+.menu-opçoes ul {
+    color: #003366;
+}
+
+
+.container {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+.menu-opçoes {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    margin-top: 10px;
+}
+
+.menu-opçoes ul li {
+    display: inline;
+    margin-left: 5px;
+}
+
+.painel {
+    width: 48%;
+    margin: 10px 0;
+    padding-left: 10px;
+    border-radius: 10px;
+    box-shadow: inset 10px 10px 5px rgb(156, 45, 45);
+}
+
+.aula1 {
+    float: left;
+    background-color: rgb(122, 9, 9);
+    background: linear-gradient(rgb(212, 26, 26), rgb(70, 0, 0));
+}
+
+.aula2 {
+    float: right;
+    background-color: rgb(122, 9, 9);
+    background: linear-gradient(rgb(212, 26, 26), rgb(70, 0, 0));
+}
+
+.blog {
+    float: left;
+    background-color: rgb(122, 17, 2);
+    background: linear-gradient(rgb(212, 26, 26), rgb(70, 0, 0));
+}
+
+.pokedex {
+    float: right;
+    background-color: rgb(122, 17, 2);
+    background: linear-gradient(rgb(212, 26, 26), rgb(70, 0, 0));
+}
+
+.painel li {
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    margin: 3px;
+    padding-bottom: 10px;
+
+}
+
+.painel h2 {
+    font-family: fantasy;
+    font-size: 20px;
+    text-shadow: inset 10px 10px 5px rgba(255, 137, 2, 0.747);
+}
+
+.painel a {
+    color: crimson;
+    font-size: 17px;
+    text-align: center;
+    text-shadow: rgba(234, 54, 95, alpha);
+}
+
+.painel img {
+    width: 30px;
+    height: 30px;
+}
+
+.social {
+    position: absolute;
+    top: 12px;
+    left: 79%;
+}
+
+.social li a[href*=instagram] {
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/insta.png);
+    text-indent: -9999px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.painel li:hover {
+    box-shadow: 10px 10px 5px black;
+    transition: 0.7s;
+    background-color: rgba(255, 255, 255, 0.8);
+    transform: scale(1.2) rotate(-5deg);
+
+}
+
+.social li a[href*=google] {
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/google.png);
+    text-indent: -9999px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.social li a[href*=github] {
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/git.png);
+    text-indent: -9999px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+footer {
+    clear: both;
+    background-image: url();
+    height: 15%;
+}
+
+.social li {
+    float: left;
+    margin-right: 20px;
+
+}
+
+main {
+    height: 65%;
+}
